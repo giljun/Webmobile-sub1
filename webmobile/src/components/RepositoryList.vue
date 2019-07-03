@@ -4,9 +4,7 @@
       v-for="i in repositories.length > limits ? limits : repositories.length"
     >
       <v-divider v-if="i === 1"></v-divider>
-      <div class="text-truncate">
-        <Repository :repos="repositories[i - 1]"></Repository>
-      </div>
+      <Repository :repos="repositories[i - 1]"></Repository>
       <v-divider></v-divider>
     </v-flex>
   </v-layout>
