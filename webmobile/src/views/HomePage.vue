@@ -1,7 +1,7 @@
 <template>
   <div>
     <ImgBanner imgSrc="https://source.unsplash.com/random/1600x900">
-      <div style="line-height:1.2em; " slot="text">
+      <div style="line-height:1.2em; font-size:5.5vw" slot="text">
         Happiness is always with you.
       </div>
     </ImgBanner>
@@ -9,8 +9,10 @@
       <!-- About Me -->
       <v-layout my-5>
         <v-flex xs12 sm8>
-          <h2 class="headline mb-3 text-xs-center text-sm-left">About Me</h2>
-          <p class="mb-3 text-xs-center text-sm-left">
+          <h2 class="mb-3 text-xs-center text-sm-left" style="font-size:4.5vw">
+            About Me
+          </h2>
+          <p class="mb-3 text-xs-center text-sm-left" style="font-size:2.5vw">
             안녕하세요,
             <br />탁구를 좋아하는 프로그래머 박길준입니다. <br />좋은 분들과
             함께 프로젝트를 진행하게 되어서 기쁩니다. <br />앞으로 남은 기간도
@@ -25,7 +27,7 @@
       <!-- Portfolio -->
       <v-layout my-5>
         <v-flex xs12>
-          <h2 class="headline my-5 text-xs-center">Portfolio</h2>
+          <h2 class="my-5 text-xs-center" style="font-size:4.5vw">Portfolio</h2>
           <PortfolioList></PortfolioList>
         </v-flex>
       </v-layout>
@@ -33,7 +35,7 @@
       <!-- Post -->
       <v-layout my-5>
         <v-flex xs12>
-          <h2 class="headline my-5 text-xs-center">Post</h2>
+          <h2 class="my-5 text-xs-center" style="font-size:4.5vw">Post</h2>
           <PostList :column="2"></PostList>
         </v-flex>
       </v-layout>
@@ -41,7 +43,7 @@
       <!-- Github -->
       <v-layout my-5>
         <v-flex xs12>
-          <h2 class="headline my-5 text-xs-center">Project</h2>
+          <h2 class="my-5 text-xs-center" style="font-size:4.5vw">Project</h2>
           <RepositoryList></RepositoryList>
         </v-flex>
       </v-layout>

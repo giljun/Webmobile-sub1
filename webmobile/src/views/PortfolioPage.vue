@@ -1,7 +1,7 @@
 <template>
   <div>
     <ImgBanner imgSrc="https://source.unsplash.com/random/1600x900">
-      <div style="line-height:1.2em;font-size:1.2em;" slot="text">
+      <div style="line-height:1.2em;font-size:5.5vw;" slot="text">
         Portfolio
       </div>
     </ImgBanner>
