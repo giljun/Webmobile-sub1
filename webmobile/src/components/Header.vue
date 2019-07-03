@@ -3,6 +3,12 @@
     <v-toolbar flat app>
       <v-toolbar-side-icon to="/"><v-icon>home</v-icon></v-toolbar-side-icon>
       <v-toolbar-title>GILJUN PARK</v-toolbar-title>
+      <!-- <a href="#" id="favorite" title="즐겨찾기 등록"
+        >즐겨찾기<i class="large material-icons">bookmark</i>
+      </a> -->
+      <v-toolbar-side-icon id="favorite"
+        ><v-icon>bookmark</v-icon></v-toolbar-side-icon
+      >
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
         <v-btn to="/portfolio" flat>Portfolio</v-btn>

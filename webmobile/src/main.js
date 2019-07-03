@@ -22,6 +22,9 @@ import BackToTop from "vue-backtotop";
 // detect browser
 import browserDetect from "vue-browser-detect-plugin";
 
+// bookmark
+import VueBookmark from "vue-bookmark";
+
 Vue.component("editor", Editor);
 Vue.component("viewer", Viewer);
 
@@ -40,6 +43,7 @@ Vue.use(Vuetify, {
 Vue.use(VueSimplemde);
 Vue.use(BackToTop);
 Vue.use(browserDetect);
+Vue.use(VueBookmark);
 
 new Vue({
   router,
