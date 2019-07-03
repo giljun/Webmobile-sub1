@@ -1,19 +1,20 @@
 <template>
   <div>
     <ImgBanner imgSrc="https://source.unsplash.com/random/1600x900">
-      <div style="line-height:1.2em; " slot="text">Happiness is always with you.</div>
+      <div style="line-height:1.2em; " slot="text">
+        Happiness is always with you.
+      </div>
     </ImgBanner>
     <v-container>
       <!-- About Me -->
       <v-layout my-5>
         <v-flex xs12 sm8>
           <h2 class="headline mb-3 text-xs-center text-sm-left">About Me</h2>
-          <p class="mr-4">
+          <p class="mb-3 text-xs-center text-sm-left">
             안녕하세요,
-            <br />탁구를 좋아하는 프로그래머 박길준입니다.
-            <br />좋은 분들과 함께 프로젝트를 진행하게 되어서 기쁩니다.
-            <br />앞으로 남은 기간도 잘 부탁드리고
-            <br />모두가 원하는 결과를 얻을 수 있길 바라겠습니다.
+            <br />탁구를 좋아하는 프로그래머 박길준입니다. <br />좋은 분들과
+            함께 프로젝트를 진행하게 되어서 기쁩니다. <br />앞으로 남은 기간도
+            잘 부탁드리고 <br />모두가 원하는 결과를 얻을 수 있길 바라겠습니다.
           </p>
         </v-flex>
         <v-flex xs0 sm4 hidden-xs-only>
