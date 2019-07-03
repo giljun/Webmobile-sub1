@@ -19,6 +19,9 @@ import { Editor, Viewer } from "@toast-ui/vue-editor";
 // scroll to top
 import BackToTop from "vue-backtotop";
 
+// detect browser
+import browserDetect from "vue-browser-detect-plugin";
+
 Vue.component("editor", Editor);
 Vue.component("viewer", Viewer);
 
@@ -36,6 +39,7 @@ Vue.use(Vuetify, {
 
 Vue.use(VueSimplemde);
 Vue.use(BackToTop);
+Vue.use(browserDetect);
 
 new Vue({
   router,

@@ -25,8 +25,13 @@ export default {
   },
   data() {
     return {
-      //
+      browser: BrowserDetect
     };
+  },
+  beforeCreate() {
+    if (browser != "Chrome") {
+      alert("해당 사이트는 크롬에 최적화 되어 있습니다.");
+    }
   }
 };
 </script>
